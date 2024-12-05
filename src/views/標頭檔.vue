@@ -2,12 +2,12 @@
   <div>
     <h1>標頭檔</h1>
         <h3>用法</h3>
-        <a class="content">#include<標頭檔></a>
-        <a># 開頭屬於預處理命令，行末不用分號，單獨成行，常放在程式開頭</a>
+        <a-typography-paragraph class="content">#include<標頭檔></a-typography-paragraph>
+        <a-typography-paragraph># 開頭屬於預處理命令，行末不用分號，單獨成行，常放在程式開頭</a-typography-paragraph>
         <hr/>
         <h3>標頭檔種類 :</h3>
         <div class="content">
-            <a>
+            <a-typography-paragraph>
                 演算法 : algorithm、stdlib、numeric<br/>
                 不可部分完成的作業 : atomic<br/>
                 C 連結庫包裝函式 : cassert、ccomplex 、cctype、cerrno、cfenv、cfloat、cinttypes、ciso646、climits、clocale、cstdalign、csignal、csetjmp、cmath、cstdarg、cstdbool、cstdint、cstdio、cstddef、cstring、cstdlib、ctgmath、cuchar、ctime、cwchar、cwctype<br/>
@@ -30,15 +30,15 @@
                 規則運算式 : regex<br/>
                 字串和字元數據 : charconv、cctype、cstdlib、cstring、cuchar、cwchar、cwctype、regex、string_view、string<br/>
                 Time : chrono、ctime<br/>
-            </a>
+            </a-typography-paragraph>
         </div>
         <hr/>
         <h3>萬用標頭檔 :</h3>
-        <a class="content">
+        <a-typography-paragraph class="content">
             你說上面的太多記不起來，沒關係我們有萬用標頭檔<br/>
             <font color="color: #E60000">bits/stdc++.h</font>
             (需使用gcc編譯器)<br/>
-        </a>
+        </a-typography-paragraph>
         <hr/>
   </div>
 </template>
