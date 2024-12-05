@@ -15,6 +15,8 @@
             <a-menu-item key="/基本資料型態" @click="navigateTo('/基本資料型態')"><icon-info />基本資料型態</a-menu-item>
             <a-menu-item key="/變數命名原則" @click="navigateTo('/變數命名原則')"><icon-info />變數命名原則</a-menu-item>
             <a-menu-item key="/運算子" @click="navigateTo('/運算子')"><icon-info />運算子</a-menu-item>
+            <a-menu-item key="/常數const" @click="navigateTo('/常數const')"><icon-info />常數const</a-menu-item>
+
 
         </a-menu>
         <div class="menu-right" align="right">
